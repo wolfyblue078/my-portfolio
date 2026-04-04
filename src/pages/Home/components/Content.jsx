@@ -1,4 +1,28 @@
+import { useState, useEffect } from "react";
+
 export default function Content(){
+
+        const words = [
+        "Web Application Developer",
+        "BackEnd Developer",
+        "Rock Singer",
+        "Guitarist",
+        "Script Writer",
+    ];
+
+    const [currentWord, setCurrentWord] = useState(words[0]);
+
+    useEffect(() => {
+        let i = 0;
+        const interval = setInterval(() => {
+        i = (i + 1) % words.length;
+        setCurrentWord(words[i]);
+        }, 2000); // change word every 2 seconds
+
+        return () => clearInterval(interval); // cleanup
+    }, []);
+
+
     return(
         <div className="h-[calc(100vh-200px)] flex items-center justify-center px-6 md:px-16">
         
@@ -12,9 +36,10 @@ export default function Content(){
                                 text-[clamp(2rem,_5vw,_3rem)]">
                     Sithija Himantha
                 </h1>            
-                <p>Fullstack Application Development</p>
-
-                
+                <div className="flex items-center space-x-2 text-xl font-semibold mt-4">
+                <span className="text-white">{currentWord}</span>
+                <span className="border-l-2 border-red-600 animate-[blink_1s_steps(1)_infinite] h-6"></span>
+            </div>
             
             </div>
 
