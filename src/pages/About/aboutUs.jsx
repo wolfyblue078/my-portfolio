@@ -6,18 +6,27 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiNodedotjs } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
+import { Link } from 'react-router-dom';
+
+
+
 
 export default function About() {
+    
     return (
         <div className="min-h-screen overflow-hidden bg-black  px-6 md:px-20 py-10">
 
             {/* Header */}
             <div className="h-15 ">
-                <button className="bg-orange-500 w-30 h-9 rounded-lg flex items-center justify-center hover:bg-orange-600  transition text-['Helvetica']">
-                    <span className="text-white">
-                        Home
-                    </span>
-                </button>
+
+                <Link to="/home">
+                    <button className="border border-white text-white px-5 py-2 rounded-lg hover:bg-orange-600  transition-all text-['Helvetica']">
+                        <span className="text-white">
+                            Home
+                        </span>
+                    </button>
+                </Link>
+                
             </div>
 
             {/* content */}
