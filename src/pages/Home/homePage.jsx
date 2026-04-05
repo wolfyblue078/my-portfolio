@@ -4,7 +4,7 @@ import Content from "./components/Content";
 
 export default function HomePage() {
     return (
-        <div className="w-full h-screen bg-black justify-center">
+        <div className="w-full h-screen overflow-hidden bg-black justify-center">
 
         {/* Header */}
         <Header/>
