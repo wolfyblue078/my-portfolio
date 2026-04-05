@@ -74,7 +74,7 @@ export default function Content(){
 
             {/* My Photo */}
             <img
-                src="/src/assets/image_black.png"
+                src="/images/image_black.png"
                 alt="profile"
                 className="relative md:-mt-15 z-10 w-[250px] sm:w-[300px] md:w-[550px]"
             />
