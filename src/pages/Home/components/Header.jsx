@@ -5,7 +5,7 @@ export default function Header(){
     return(
         <>
 
-        <div className="max-w-7xl mx-auto h-[200px]">
+        <div className="max-w-7xl mx-auto h-[150px]">
             <header className="p-4 flex items-center justify-between px-12 py-6">
                 <span className="text-4xl font-bold text-white font-['Helvetica']">Portfolio</span>
                 <nav className="hidden md:flex space-x-4 text-white font-['Helvetica'] text-xl flex gap-2">
