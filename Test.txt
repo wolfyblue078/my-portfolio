@@ -1,4 +1,4 @@
 "predeploy": "npm run build",
 "deploy": "gh-pages -d dist"
     "homepage": "https://wolfyblue078.github.io/my-portfolio/",
-  
+  "homepage": "https://wolfyblue078.github.io/my-portfolio/",
