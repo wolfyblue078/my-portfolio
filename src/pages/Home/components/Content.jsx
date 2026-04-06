@@ -67,7 +67,7 @@ export default function Content(){
 
 
         {/* Right content */}
-        <div className="order-1 flex justify-center items-center md:justify-center m-5">
+        <div className="order-1 flex justify-center items-center md:justify-center m-2">
         <div className="relative">
 
 
