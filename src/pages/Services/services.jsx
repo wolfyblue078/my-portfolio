@@ -2,7 +2,11 @@ import { FaCode, FaLaptopCode, FaPython, FaPaintBrush } from "react-icons/fa";
 
 export default function Services() {
   return (
+    
     <div className="min-h-screen px-6 md:px-20 py-16 text-white bg-black">
+
+
+
 
       {/* Title */}
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-4">
