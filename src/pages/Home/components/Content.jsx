@@ -24,7 +24,7 @@ export default function Content(){
 
 
     return(
-        <div className="h-[calc(100vh-200px)] flex items-center justify-center px-6 md:px-16">
+        <div className="flex-1 flex items-center justify-center px-4 sm:px-8 md:px-16">
         
         <div className="grid md:grid-cols-2 gap-10 items-center w-full">
 

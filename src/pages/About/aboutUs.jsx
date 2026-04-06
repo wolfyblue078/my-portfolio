@@ -19,7 +19,7 @@ export default function About() {
             {/* Header */}
             <div className="h-15 ">
 
-                <Link to="/home">
+                <Link to="/my-portfolio/">
                     <button className="border border-white text-white px-5 py-2 rounded-lg hover:bg-orange-600  transition-all text-['Helvetica']">
                         <span className="text-white">
                             Home
