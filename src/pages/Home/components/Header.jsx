@@ -28,7 +28,7 @@ export default function Header(){
                           About us
                     </Link>
 
-                    <Link to="services" 
+                    <Link to="/services" 
                           className="text-[1.2rem] text-white mx-[20px] transition-all duration-200 linear inline-block hover:text-[#ff521b] hover:[text-shadow:1px_1px_#ff521b] hover:-translate-y-1">
                           Services
                     </Link>
